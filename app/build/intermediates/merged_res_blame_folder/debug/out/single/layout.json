@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_tinder_member_list.xml",
+        "source": "/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/res/layout/fragment_tinder_member_list.xml"
+    },
+    {
+        "merged": "/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/list_row.xml",
+        "source": "/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/res/layout/list_row.xml"
+    }
+]

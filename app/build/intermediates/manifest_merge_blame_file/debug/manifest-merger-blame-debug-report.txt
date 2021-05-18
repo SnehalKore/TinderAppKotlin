@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.navigationarchitecturewithkotlin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:6:5-79
+11-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:7:5-67
+12-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:7:22-64
+13
+14    <application
+14-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:9:5-36:19
+15        android:name="com.example.navigationarchitecturewithkotlin.NavigationArchApplication"
+15-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:10:9-50
+16        android:allowBackup="false"
+16-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:11:9-36
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:12:9-77
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:13:9-43
+20        android:label="@string/app_name"
+20-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:14:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:15:9-54
+22        android:supportsRtl="true"
+22-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:16:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:17:9-40
+25        <activity
+25-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:20:9-30:20
+26            android:name="com.example.navigationarchitecturewithkotlin.views.activity.SplashActivity"
+26-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:21:13-58
+27            android:noHistory="true"
+27-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:22:13-37
+28            android:screenOrientation="portrait"
+28-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:24:13-49
+29            android:theme="@style/AppTheme.NoActionBar" >
+29-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:23:13-56
+30            <intent-filter>
+30-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:25:13-29:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:26:17-69
+31-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:26:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:28:17-77
+33-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:28:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:31:9-35:57
+37            android:name="com.example.navigationarchitecturewithkotlin.views.activity.MainActivity"
+37-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:32:13-56
+38            android:launchMode="singleTask"
+38-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:33:13-44
+39            android:screenOrientation="portrait"
+39-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:34:13-49
+40            android:windowSoftInputMode="adjustResize" />
+40-->/Users/snehalkore/Documents/Android samples/TinderAppKotlin/app/src/main/AndroidManifest.xml:35:13-55
+41
+42        <provider
+42-->[com.squareup.picasso:picasso:2.71828] /Users/snehalkore/.gradle/caches/transforms-2/files-2.1/f9d42c6f059b8015ef23aacb68c6db5a/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+43            android:name="com.squareup.picasso.PicassoProvider"
+43-->[com.squareup.picasso:picasso:2.71828] /Users/snehalkore/.gradle/caches/transforms-2/files-2.1/f9d42c6f059b8015ef23aacb68c6db5a/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+44            android:authorities="com.example.navigationarchitecturewithkotlin.com.squareup.picasso"
+44-->[com.squareup.picasso:picasso:2.71828] /Users/snehalkore/.gradle/caches/transforms-2/files-2.1/f9d42c6f059b8015ef23aacb68c6db5a/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+45            android:exported="false" />
+45-->[com.squareup.picasso:picasso:2.71828] /Users/snehalkore/.gradle/caches/transforms-2/files-2.1/f9d42c6f059b8015ef23aacb68c6db5a/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+46        <provider
+46-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/snehalkore/.gradle/caches/transforms-2/files-2.1/150f531a1cb386e4ceec7fa1c22c14ab/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+47            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/snehalkore/.gradle/caches/transforms-2/files-2.1/150f531a1cb386e4ceec7fa1c22c14ab/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+48            android:authorities="com.example.navigationarchitecturewithkotlin.lifecycle-process"
+48-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/snehalkore/.gradle/caches/transforms-2/files-2.1/150f531a1cb386e4ceec7fa1c22c14ab/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+49            android:exported="false"
+49-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/snehalkore/.gradle/caches/transforms-2/files-2.1/150f531a1cb386e4ceec7fa1c22c14ab/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+50            android:multiprocess="true" />
+50-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/snehalkore/.gradle/caches/transforms-2/files-2.1/150f531a1cb386e4ceec7fa1c22c14ab/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+51
+52        <service
+52-->[androidx.room:room-runtime:2.2.5] /Users/snehalkore/.gradle/caches/transforms-2/files-2.1/65588bb90b64aa2155f22f3d4e34205f/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+53            android:name="androidx.room.MultiInstanceInvalidationService"
+53-->[androidx.room:room-runtime:2.2.5] /Users/snehalkore/.gradle/caches/transforms-2/files-2.1/65588bb90b64aa2155f22f3d4e34205f/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+54            android:directBootAware="true"
+54-->[androidx.room:room-runtime:2.2.5] /Users/snehalkore/.gradle/caches/transforms-2/files-2.1/65588bb90b64aa2155f22f3d4e34205f/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+55            android:exported="false" />
+55-->[androidx.room:room-runtime:2.2.5] /Users/snehalkore/.gradle/caches/transforms-2/files-2.1/65588bb90b64aa2155f22f3d4e34205f/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+56    </application>
+57
+58</manifest>

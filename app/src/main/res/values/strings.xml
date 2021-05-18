@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TinderApp</string>
+
+    <string name="coming_soon">COMING SOON....</string>
+    <string name="reject_msg">Member Rejected</string>
+    <string name="accept_msg">Member Accepted</string>
+    <string name="not_updated">Not updated</string>
+    <string name="check_matches">Check Matches</string>
+    <string name="profile">My Profile</string>
+</resources>
